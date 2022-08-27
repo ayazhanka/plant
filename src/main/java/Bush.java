@@ -1,8 +1,11 @@
-public class Bush extends GreenHouse{
-    public static void main(String[] args) {
-        GreenHouse AppleTree = new GreenHouse("f);
-        AppleTree.newPlants(true);
-        AppleTree.toWaterPlants(true);
-        AppleTree.setLights(false);
+import java.util.List;
+
+public class Bush extends Plant{
+    public Bush(int id, int temperature, String name, String type, String country) {
+        super(id, temperature, name, type, country);
+
     }
+
+
+
 }
